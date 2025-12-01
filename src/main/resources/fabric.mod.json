@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "oculitis",
+  "version": "${version}",
+  "name": "Oculitis",
+  "description": "Restoring things laid before God in rage.",
+  "authors": [
+    "Chemthunder"
+  ],
+  "contributors": [
+    "4kio - Overlay texture",
+    "Boy_Anachronism/Juliaans - Oculos Flos textures"
+  ],
+  "icon": "assets/oculitis/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "silly.chemthunder.oculitis.Oculitis"
+    ],
+    "client": [
+      "silly.chemthunder.oculitis.OculitisClient"
+    ],
+    "fabric-datagen": [
+      "silly.chemthunder.oculitis.OculitisDataGenerator"
+    ],
+    "cardinal-components": [
+      "silly.chemthunder.oculitis.cca.OculitisComponents"
+    ]
+  },
+  "mixins": [
+    "oculitis.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.5",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "custom": {
+    "cardinal-components": [
+      "oculitis:oculitis",
+      "oculitis:enflowered"
+    ]
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

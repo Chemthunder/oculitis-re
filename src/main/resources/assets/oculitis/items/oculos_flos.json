@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "select",
+    "cases": [
+      {
+        "model": {
+          "type": "model",
+          "model": "oculitis:item/oculos_flos_gui"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "oculitis:item/oculos_flos_handheld"
+    },
+    "property": "display_context"
+  }
+}

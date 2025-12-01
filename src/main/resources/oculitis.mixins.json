@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "package": "silly.chemthunder.oculitis.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LivingEntityMixin",
+    "PlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "client.InGameHudMixin",
+    "nitrogen.DrawContextAccessor",
+    "nitrogen.HandledScreenMixin"
+  ]
+}

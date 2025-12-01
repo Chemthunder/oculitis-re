@@ -1,0 +1,13 @@
+{
+  "item.oculitis.oculos_flos": "Oculos Flos",
+  "lore.oculos_1": "A curse bestowed upon a broken soul",
+  "lore.oculos_2": "Gain power through the death of others.",
+
+  "death.attack.enflowered": "%1$s was consumed with flowers",
+  "death.attack.enflowered.player": "%1$s was consumed with flowers by %2$s",
+  "lore.oculos_unlocked.1": "Critical hits will infect opponents,",
+  "lore.oculos_unlocked.2": "reducing how resistant their armor is.",
+  "lore.oculos_unlocked.2_1": "Movement speed is buffed,",
+  "lore.oculos_unlocked.2_2": "And you are able to photosynthesize, however",
+  "lore.oculos_unlocked.2_3": "You take more damage than normal."
+}

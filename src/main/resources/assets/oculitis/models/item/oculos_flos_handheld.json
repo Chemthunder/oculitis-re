@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "oculitis:item/oculos_flos"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 7.25, 1.5],
+			"scale": [1.85, 1.85, 1.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 7.25, 1.5],
+			"scale": [1.85, 1.85, 1.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 5.45, 3.63],
+			"scale": [1.49, 1.49, 0.93]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [1.13, 5.45, 3.63],
+			"scale": [1.49, 1.49, 0.93]
+		},
+		"head": {
+			"rotation": [-85.5, -90, 0],
+			"translation": [0, 6.5, -5.5],
+			"scale": [4, 4, 4]
+		}
+	}
+}
