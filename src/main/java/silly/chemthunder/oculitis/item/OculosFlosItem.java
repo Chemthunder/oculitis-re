@@ -81,7 +81,7 @@ public class OculosFlosItem extends Item implements CustomHitParticleItem, Color
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, TooltipDisplayComponent displayComponent, Consumer<Text> textConsumer, TooltipType type) {
-        PlayerEntity player = MinecraftClient.getInstance().player;
+        PlayerEntity player = (PlayerEntity) stack.getHolder();
         textConsumer.accept(Text.translatable("lore.oculos_1").styled(style -> style.withColor(0xa37dca)));
         textConsumer.accept(Text.translatable("lore.oculos_2").styled(style -> style.withColor(0xa37dca)));
 

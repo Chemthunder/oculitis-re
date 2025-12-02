@@ -21,8 +21,6 @@ public class Oculitis implements ModInitializer {
         OculitisItems.index();
 
 		if (FabricLoader.getInstance().isDevelopmentEnvironment()) LOGGER.info("Debug features active");
-
-
         ALib.registerModMenu(MOD_ID, 0x51336e);
 	}
 }
